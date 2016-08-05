@@ -569,7 +569,8 @@
             } else {
                 if (this.leftCalendar.month.format('YYYY-MM') != this.startDate.format('YYYY-MM') && this.rightCalendar.month.format('YYYY-MM') != this.startDate.format('YYYY-MM')) {
                     this.leftCalendar.month = this.startDate.clone().date(2);
-                    this.rightCalendar.month = this.startDate.clone().date(2).add(1, 'month');
+                    //this.rightCalendar.month = this.startDate.clone().date(2).add(1, 'month');
+                    this.rightCalendar.month = this.startDate.clone().date(2);
                 }
             }
             if (this.maxDate && this.linkedCalendars && !this.singleDatePicker && this.rightCalendar.month > this.maxDate) {
