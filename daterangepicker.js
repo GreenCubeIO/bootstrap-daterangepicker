@@ -566,6 +566,7 @@
                 } else {
                     //this.rightCalendar.month = this.startDate.clone().date(2).add(1, 'month');
                     this.rightCalendar.month = this.startDate.clone()
+
                 }
 
             } else {
